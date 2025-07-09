@@ -1,0 +1,10 @@
+🔑 Why key is needed:
+When rendering a list (like with .map()), React needs a way to track each element so it can efficiently update the DOM when the list changes. The key helps React do this by giving each element a unique identity.
+
+Without key, or with an unstable key, React may:
+
+Re-render more elements than necessary
+
+Lose component state (e.g. input fields, checkboxes, etc.)
+
+Perform inefficient DOM updates
