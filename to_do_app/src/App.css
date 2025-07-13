@@ -1,0 +1,13 @@
+/* .select-btn button{
+  border-radius: 2px;
+  background-color: rgb(93, 120, 242);
+}
+ */
+.spanClass{
+  font-weight: 900;
+  font-family:'Segoe UI Tahoma, Geneva, Verdana, sans-serif';
+  font-size: 25px;
+}
+.main{
+  background-color: rgb(165, 165, 248);
+}
